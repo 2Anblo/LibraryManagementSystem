@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cell_returnClass</class>
+ <widget class="QWidget" name="cell_returnClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1179</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cell_return</string>
+  </property>
+  <widget class="QTableWidget" name="returnTable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>741</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>412</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="BookMS.qrc">:/background/cnu.png</pixmap>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+                          color: #333; 
+                          font-size: 26px;
+                          font-weight: bold;
+                          padding: 10px; 
+                          border-radius: 5px;
+                          }</string>
+      </property>
+      <property name="text">
+       <string>已借阅/超期归还书籍</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="imageLabel">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>70</y>
+     <width>391</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="BookMS.qrc">:/background/CNUlib.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>returnTable</tabstop>
+ </tabstops>
+ <resources>
+  <include location="BookMS.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>returnTable</sender>
+   <signal>customContextMenuRequested(QPoint)</signal>
+   <receiver>cell_returnClass</receiver>
+   <slot>onRightClickShowMenu(QPoint)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onRightClickShowMenu(QPoint)</slot>
+ </slots>
+</ui>

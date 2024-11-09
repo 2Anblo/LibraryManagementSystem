@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#tool QToolButton{border:none; background-color: rgb(84,92,100); color: white;min-height:55px; font:14px ‘黑体’;padding-left:10px }
+QDialog#tool{background-color: rgb(84,92,100);}
+QDialog#tool QToolButton:checked{background:rgb(67,74,80);}</string>
+  </property>
+  <widget class="QWidget" name="tool" native="true">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>131</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(84,92,100);</string>
+   </property>
+   <widget class="QToolButton" name="personTBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{border:none; background-color: rgb(84,92,100); color: white;min-height:55px; font:14px ‘黑体’;padding-left:10px }
+
+QToolButton:checked{background:rgb(67,74,80);}</string>
+    </property>
+    <property name="text">
+     <string>个人中心</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QToolButton" name="borrowTBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{border:none; background-color: rgb(84,92,100); color: white;min-height:55px; font:14px ‘黑体’;padding-left:10px }
+
+QToolButton:checked{background:rgb(67,74,80);}</string>
+    </property>
+    <property name="text">
+     <string>借阅情况</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QToolButton" name="bookTBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{border:none; background-color: rgb(84,92,100); color: white;min-height:55px; font:14px ‘黑体’;padding-left:10px }
+
+QToolButton:checked{background:rgb(67,74,80);}</string>
+    </property>
+    <property name="text">
+     <string>图书信息</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>571</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page"/>
+   <widget class="QWidget" name="page_2"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

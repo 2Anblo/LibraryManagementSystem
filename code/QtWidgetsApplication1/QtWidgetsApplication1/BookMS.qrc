@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/Book">
+        <file>book-open.svg</file>
+        <file>book-open-white.svg</file>
+        <file>calendar-alt.svg</file>
+        <file>user.svg</file>
+        <file>search.svg</file>
+        <file>book-reader.svg</file>
+        <file>search-white.svg</file>
+        <file>plus-square.svg</file>
+        <file>cancel.svg</file>
+        <file>trash-alt.svg</file>
+        <file>graduation-cap.svg</file>
+        <file>star (1).svg</file>
+        <file>otys.png</file>
+        <file>anknia.png</file>
+        <file>jane.png</file>
+        <file>shake.png</file>
+        <file>folder-open.svg</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file>library.png</file>
+        <file>ttm.png</file>
+        <file>otys_02.png</file>
+        <file>cnu.png</file>
+        <file>CNUcenter.png</file>
+        <file>CNUeast.png</file>
+        <file>CNUeast2.png</file>
+        <file>CNUlib.png</file>
+        <file>CNUorg.png</file>
+    </qresource>
+    <qresource prefix="/Character">
+        <file>goku.png</file>
+        <file>kirby.png</file>
+        <file>patrick.png</file>
+        <file>spiderman.png</file>
+        <file>ykirby.png</file>
+        <file>mario.png</file>
+        <file>ironman.png</file>
+        <file>capitaina.png</file>
+        <file>zwz.png</file>
+        <file>hachi.png</file>
+        <file>wusachi.png</file>
+    </qresource>
+</RCC>
